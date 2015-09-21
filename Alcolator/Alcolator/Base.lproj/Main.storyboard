@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="LHn-Xy-ogp">
+                                <rect key="frame" x="29" y="67" width="542" height="31"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Tk-wR-Jlr">
+                                <rect key="frame" x="31" y="175" width="538" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Krd-UN-fde">
+                                <rect key="frame" x="244" y="112" width="113" height="45"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="% Alcohol Content per Beer" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aib-Cs-3s2">
+                                <rect key="frame" x="31" y="28" width="538" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aib-Cs-3s2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="0OZ-Lk-Dnu"/>
+                            <constraint firstItem="Krd-UN-fde" firstAttribute="centerX" secondItem="LHn-Xy-ogp" secondAttribute="centerX" id="CL2-B0-hTK"/>
+                            <constraint firstItem="aib-Cs-3s2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="OmC-YT-CsK"/>
+                            <constraint firstItem="LHn-Xy-ogp" firstAttribute="top" secondItem="aib-Cs-3s2" secondAttribute="bottom" constant="9" id="UV0-Md-IdE"/>
+                            <constraint firstItem="LHn-Xy-ogp" firstAttribute="width" secondItem="aib-Cs-3s2" secondAttribute="width" id="Vj9-yh-rUC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aib-Cs-3s2" secondAttribute="trailing" constant="11" id="g7c-VA-N2M"/>
+                            <constraint firstItem="6Tk-wR-Jlr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="igu-ed-CEe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6Tk-wR-Jlr" secondAttribute="trailing" constant="11" id="lE7-x0-CG8"/>
+                            <constraint firstItem="6Tk-wR-Jlr" firstAttribute="top" secondItem="Krd-UN-fde" secondAttribute="bottom" constant="18" id="qTJ-KY-ovz"/>
+                            <constraint firstItem="Krd-UN-fde" firstAttribute="top" secondItem="LHn-Xy-ogp" secondAttribute="bottom" constant="15" id="y26-bI-sGs"/>
+                            <constraint firstItem="LHn-Xy-ogp" firstAttribute="centerX" secondItem="aib-Cs-3s2" secondAttribute="centerX" id="zef-a7-XBs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="387"/>
+        </scene>
+    </scenes>
+</document>
