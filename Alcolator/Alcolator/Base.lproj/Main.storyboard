@@ -20,12 +20,6 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="LHn-Xy-ogp">
                                 <rect key="frame" x="29" y="67" width="542" height="31"/>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Tk-wR-Jlr">
-                                <rect key="frame" x="31" y="175" width="538" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Krd-UN-fde">
                                 <rect key="frame" x="244" y="112" width="113" height="45"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
@@ -38,20 +32,28 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Tk-wR-Jlr">
+                                <rect key="frame" x="244" y="176" width="113" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ydX-sY-3kH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="aib-Cs-3s2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="0OZ-Lk-Dnu"/>
-                            <constraint firstItem="6Tk-wR-Jlr" firstAttribute="top" secondItem="Krd-UN-fde" secondAttribute="bottom" constant="18" id="ESB-4H-jpL"/>
+                            <constraint firstItem="6Tk-wR-Jlr" firstAttribute="top" secondItem="Krd-UN-fde" secondAttribute="bottom" constant="19" id="J1l-Nj-jNQ"/>
                             <constraint firstItem="aib-Cs-3s2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="OmC-YT-CsK"/>
-                            <constraint firstItem="6Tk-wR-Jlr" firstAttribute="centerX" secondItem="Krd-UN-fde" secondAttribute="centerX" id="PFh-b0-fRL"/>
                             <constraint firstItem="LHn-Xy-ogp" firstAttribute="top" secondItem="aib-Cs-3s2" secondAttribute="bottom" constant="9" id="UV0-Md-IdE"/>
                             <constraint firstItem="LHn-Xy-ogp" firstAttribute="width" secondItem="aib-Cs-3s2" secondAttribute="width" id="Vj9-yh-rUC"/>
+                            <constraint firstItem="6Tk-wR-Jlr" firstAttribute="leading" secondItem="Krd-UN-fde" secondAttribute="leading" id="XAh-C2-Cp7"/>
                             <constraint firstItem="Krd-UN-fde" firstAttribute="centerX" secondItem="LHn-Xy-ogp" secondAttribute="centerX" id="c9z-3c-4os"/>
                             <constraint firstItem="Krd-UN-fde" firstAttribute="top" secondItem="LHn-Xy-ogp" secondAttribute="bottom" constant="15" id="dVF-pr-sG7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="aib-Cs-3s2" secondAttribute="trailing" constant="11" id="g7c-VA-N2M"/>
-                            <constraint firstItem="6Tk-wR-Jlr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="igu-ed-CEe"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="6Tk-wR-Jlr" secondAttribute="trailing" constant="11" id="lE7-x0-CG8"/>
+                            <constraint firstItem="6Tk-wR-Jlr" firstAttribute="trailing" secondItem="Krd-UN-fde" secondAttribute="trailing" id="v4Y-iX-TBi"/>
                             <constraint firstItem="LHn-Xy-ogp" firstAttribute="centerX" secondItem="aib-Cs-3s2" secondAttribute="centerX" id="zef-a7-XBs"/>
                         </constraints>
                     </view>
