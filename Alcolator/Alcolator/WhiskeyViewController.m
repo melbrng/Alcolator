@@ -50,10 +50,7 @@
     self.resultLabel.text = resultText;
     
     
-    //set the item title to reflect number of calculated shots
-    NSString *itemTitle = [NSString stringWithFormat:NSLocalizedString(@" (Whiskey) %.0f %@",nil) ,numberOfWhiskeyGlassesForEquivalentAlcoholAmount, whiskeyText];
-    
-    self.navigationItem.title =itemTitle;
+
 }
 
 
