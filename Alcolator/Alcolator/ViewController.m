@@ -67,6 +67,11 @@
     // generate the result text, and display it on the label
     NSString *resultText = [NSString stringWithFormat:NSLocalizedString(@"%d %@ (with %.2f%% alcohol) contains as much alcohol as %.1f %@ of wine.", nil), numberOfBeers, beerText,  [self.beerPercentTextField.text floatValue], numberOfWineGlassesForEquivalentAlcoholAmount, wineText];
     self.resultLabel.text = resultText;
+    
+    //set the item title to reflect number of calculated glasses
+    NSString *itemTitle = [NSString stringWithFormat:NSLocalizedString(@" (Wine) %.0f %@",nil) ,numberOfWineGlassesForEquivalentAlcoholAmount, wineText];
+    
+    self.navigationItem.title =itemTitle;
 }
 
 - (IBAction)tapGestureDidFire:(UITapGestureRecognizer *)sender {

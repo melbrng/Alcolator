@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43096D411BB1DBB00026047D /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43096D401BB1DBB00026047D /* MainMenuViewController.m */; settings = {ASSET_TAGS = (); }; };
 		433A0DEB1BB06E7B00D44843 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 433A0DEA1BB06E7B00D44843 /* WhiskeyViewController.m */; settings = {ASSET_TAGS = (); }; };
 		435FBDE31BAF96FC004BA3E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 435FBDE21BAF96FC004BA3E9 /* main.m */; };
 		435FBDE61BAF96FC004BA3E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 435FBDE51BAF96FC004BA3E9 /* AppDelegate.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43096D3F1BB1DBB00026047D /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = ../MainMenuViewController.h; sourceTree = "<group>"; };
+		43096D401BB1DBB00026047D /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = ../MainMenuViewController.m; sourceTree = "<group>"; };
 		433A0DE91BB06E7B00D44843 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
 		433A0DEA1BB06E7B00D44843 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 		435FBDDE1BAF96FC004BA3E9 /* Alcolator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcolator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +109,8 @@
 			children = (
 				435FBDE41BAF96FC004BA3E9 /* AppDelegate.h */,
 				435FBDE51BAF96FC004BA3E9 /* AppDelegate.m */,
+				43096D3F1BB1DBB00026047D /* MainMenuViewController.h */,
+				43096D401BB1DBB00026047D /* MainMenuViewController.m */,
 				435FBDE71BAF96FC004BA3E9 /* ViewController.h */,
 				435FBDE81BAF96FC004BA3E9 /* ViewController.m */,
 				433A0DE91BB06E7B00D44843 /* WhiskeyViewController.h */,
@@ -278,6 +283,7 @@
 				435FBDE91BAF96FC004BA3E9 /* ViewController.m in Sources */,
 				433A0DEB1BB06E7B00D44843 /* WhiskeyViewController.m in Sources */,
 				435FBDE61BAF96FC004BA3E9 /* AppDelegate.m in Sources */,
+				43096D411BB1DBB00026047D /* MainMenuViewController.m in Sources */,
 				435FBDE31BAF96FC004BA3E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
